@@ -9,4 +9,8 @@ import java.util.List;
 public interface EmployeeService {
 
     public List<Employee> listEmployees();
+    public Employee addEmployees(Employee employee);
+    public Employee updateEmployees(Employee employee);
+    public void deleteEmployees(Long parseLong);
+    public List<Employee> viewEmployeeById(Long id);
 }
